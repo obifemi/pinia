@@ -1,6 +1,6 @@
 import {defineStore} from 'pinia'
 
-export const kursStore = defineStore('kursStore', {
+export const useKursStore = defineStore('kursStore', {
     state:()=>({
         kurslar:[
             {id:1, title:'A1 German Course', isFav:false},

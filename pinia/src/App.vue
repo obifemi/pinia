@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import useKursStore from './stores/kursStore'
   export default {
     
   }
