@@ -9,7 +9,13 @@
 
 <script>
 import useKursStore from './stores/kursStore'
+
+
   export default {
-    
+    setup(){
+      const kursStore = useKursStore()
+
+      return(kursStore)
+    }
   }
 </script>
