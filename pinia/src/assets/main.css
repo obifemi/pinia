@@ -32,3 +32,50 @@ header h1 {
   color: #777;
   
 }
+
+.kurs-listeler {
+  max-width: 800px;
+  margin: 80px auto;
+}
+.kurs {
+  padding: 6px 20px;
+  background: #83c5be;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kurs h3, .kurs .icons {
+  display: inline-block;
+}
+.kurs .icons {
+  text-align: right;
+}
+.kurs i {
+  font-size: 1.4em;
+  margin-left: 6px;
+  cursor: pointer;
+  color: white;
+}
+.filter {
+  width: 800px;
+  margin: 10px auto;
+  text-align: right;
+}
+.filter button {
+  display: inline-block;
+  margin-left: 10px;
+  background: #fff;
+  border: 2px solid #83c5be;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.filter button:hover{
+  background-color: #83c5be;
+}
