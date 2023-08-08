@@ -20,6 +20,12 @@ import {defineStore} from 'pinia'
         insgesamt(){
             return this.kurse.length
         }
+    },
+
+    action:{
+        hinzuKurs{
+            this.kurse.push(kurs)
+        }
     }
 })
 
