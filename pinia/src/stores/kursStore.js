@@ -23,7 +23,7 @@ import {defineStore} from 'pinia'
     },
 
     action:{
-        hinzuKurs{
+        hinzuKurs(kurs){
             this.kurse.push(kurs)
         }
     }
