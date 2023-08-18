@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import KursForm from './components/KursForm.vue'
 import {useKursStore} from './stores/kursStore'
 import KursDetail from './components/KursDetail.vue'
 import {ref} from 'vue'
@@ -43,7 +44,8 @@ import {ref} from 'vue'
       
     },
     components:{
-      KursDetail
+      KursDetail,
+      KursForm
     }
   }
 </script>
